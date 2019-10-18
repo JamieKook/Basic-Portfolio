@@ -36,6 +36,10 @@ header {
     height: 100px;
     margin: 0 auto; 
     width: 100%; 
+    position: fixed;
+    top: 0;
+    right: 0; 
+    z-index: 10; 
 }
 
 /* added to limit spread of content to 960px while having the header span the whole screen */
@@ -85,7 +89,8 @@ a:hover {
     border: 1px solid #dddddd;
     overflow: scroll; 
     margin-bottom: 300px; 
-    position: relative; 
+    position: relative;
+    top: 100px; 
 }
 
 #headshot {
