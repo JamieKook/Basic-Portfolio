@@ -67,6 +67,13 @@ a {
     color: #777777;
     text-decoration: none;
 } 
+
+a:hover {
+    color: #4882B8;
+    border: 2px solid #4882B8;
+    padding: 5px 5px; 
+}
+
 .container {
     background-color: #ffffff;
     width: 960px; 
@@ -90,6 +97,15 @@ p {
 #surge {
     color: #4aaaa5;
     text-decoration: underline;
+}
+
+#surge:hover {
+    color: #4882B8;
+    border: none; 
+}
+
+#surge:visited {
+    color: #48B873;
 }
 
 footer {
@@ -126,6 +142,16 @@ input, textarea {
     width: 100px; 
     padding: 10px 5px; 
     font-size: 100%; 
+}
+
+#submit:hover {
+    background-color: #4882B8; 
+}
+
+#submit:active{
+    background-color: #48B873;
+    border: 2px solid #4aaaa5; 
+    outline: none; 
 }
 
 /*CSS done for portfolio.html */
