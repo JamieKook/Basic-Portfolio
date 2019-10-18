@@ -72,6 +72,7 @@ a {
     width: 960px; 
     margin: 40px auto; 
     padding: 20px 30px;
+    border: 1px solid #cccccc;
 }
 
 #headshot {
@@ -110,12 +111,12 @@ footer {
 /*CSS done for contact.html sheet */
 
 form {
-    line-height: 300%;
+    line-height: 150%;
 }
 
 input, textarea {
     padding: 5px;  
-    margin: 10px auto; 
+    margin: 2px auto; 
     width: 100%;  
 }
 
