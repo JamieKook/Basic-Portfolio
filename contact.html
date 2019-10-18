@@ -3,32 +3,37 @@
     <head>
         <title>Portfolio Contact </title>
         <meta charset="UTF-8">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
         <header>
-            <h1>Jamie Kook</h1>
-            <nav>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-            </nav>
+            <div class="headercont">
+                <h1>Jamie Kook</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li id="Portlink"><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <div>
+        <div class="container">
             <h2>Contact</h2>
-            <hr>
             <form>
                 Name <br>
                 <input type="text" name="name"><br>
                 Email <br>
                 <input type="email" name="email"><br>
                 Message <br>
-                <textarea name="message" rows="10" cols="30"></textarea><br><br>
-                <input type="submit" value="Submit">
+                <textarea name="message" rows="15" cols="30"></textarea><br><br>
+                <input id="submit" type="submit" value="Submit">
             </form>
         </div>
 
+        <div class="tealLine">   </div>
         <footer>
             <h6>Copyright &copy;</h6>
         </footer>

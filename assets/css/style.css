@@ -101,3 +101,23 @@ footer {
     margin: 0 auto;
     margin-top: 100px;
 }
+
+<!--CSS done for contact.html sheet -->
+
+form {
+    line-height: 300%;
+}
+
+input, textarea {
+    padding: 5px;  
+    margin: 10px auto; 
+    width: 100%;  
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100px; 
+    padding: 10px 5px; 
+    font-size: 100%; 
+}
