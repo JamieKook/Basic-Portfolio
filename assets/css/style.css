@@ -8,6 +8,8 @@ body {
 h1, h2, h3, h6 {
     font-family: "Georgia", Times, 'Times New Roman', serif;
 }
+
+/* Had problems with the position getting it to not float about the header bar. Had to set position down to relative and manually move and adjust the size to fit. Is there a better way? */
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -17,7 +19,7 @@ h1 {
     top: 32px; 
   
 
-}
+} 
 
 h2 {
     color: #4aaaa5;
@@ -33,11 +35,14 @@ header {
     margin: 0 auto; 
 }
 
+/* added to limit spread of content to 960px while having the header span the whole screen */
 .headercont {
     width: 960px; 
     margin: 0 auto; 
 
 }
+
+/*Had to change the navigation to a list to make inline. Is this the best way? do I still need a nav class to contain it in? */
 
 ul {
     list-style-type: none;
@@ -102,7 +107,7 @@ footer {
     margin-top: 100px;
 }
 
-<!--CSS done for contact.html sheet -->
+/*CSS done for contact.html sheet */
 
 form {
     line-height: 300%;
@@ -120,4 +125,51 @@ input, textarea {
     width: 100px; 
     padding: 10px 5px; 
     font-size: 100%; 
+}
+
+/*CSS done for portfolio.html */
+
+img { 
+    width: 200px; 
+}
+
+.project {
+    width: 300px; 
+    height: 228px;
+    margin: 20px 20px; 
+    text-align: center; 
+    display: inline-block;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: #ffffff; 
+    padding: 20px; 
+    position: relative;
+    top: 130px; 
+}
+
+div.one{
+    background-image: url("/assets/images/hangman.jpg"); 
+    background-size: cover;  
+}
+
+div.two{
+    background-image: url("/assets/images/rpg.jpg"); 
+    background-size: cover;  
+}
+
+div.three{
+    background-image: url("/assets/images/trivia.jpg"); 
+    background-size: cover;  
+}
+
+div.four{
+    background-image: url("/assets/images/rutgers.jpg"); 
+    background-size: cover;  
+}
+
+div.five{
+    background-image: url("/assets/images/rock.jpg"); 
+    background-size: cover;  
 }
