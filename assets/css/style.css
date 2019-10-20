@@ -45,7 +45,8 @@ header {
 /* added to limit spread of content to 960px while having the header span the whole screen */
 .headercont {
     width: 960px; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    height: auto;  
 
 }
 
@@ -131,7 +132,7 @@ footer {
 
 .tealLine {
     background-color: #4aaaa5;
-    padding-top: 5px; 
+    padding-top: 8px; 
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -153,6 +154,7 @@ input, textarea {
     padding: 5px;  
     margin: 2px auto; 
     width: 100%;  
+    color: #777777
 }
 
 #submit {
@@ -179,8 +181,9 @@ img {
     width: 200px; 
 }
 
+
 .project {
-    width: 300px; 
+    width: 30%; 
     height: 228px;
     margin: 20px 20px; 
     text-align: center; 
