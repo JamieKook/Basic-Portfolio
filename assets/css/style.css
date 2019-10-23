@@ -111,6 +111,7 @@ p {
     text-decoration: underline;
 }
 
+
 #surge:hover {
     color: #4882B8;
     border: none; 
@@ -203,6 +204,15 @@ div.one{
     background-size: cover;  
 }
 
+
+#proflinkone{
+   
+}
+
+.profilelink a {
+    color: #ffffff; 
+}
+
 div.two{
     background-image: url("/assets/images/rpg.jpg"); 
     background-size: cover;  
@@ -222,3 +232,4 @@ div.five{
     background-image: url("/assets/images/rock.jpg"); 
     background-size: cover;  
 }
+
