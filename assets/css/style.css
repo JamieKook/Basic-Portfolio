@@ -3,7 +3,7 @@
 body {
     color: #777777;
     font-family: "Arial", "Helvetica Neue", Arial, Helvetica, sans-serif;
-    background-image: url(../images/extra_clean_paper.png);
+    background-image: url("../images/extra_clean_paper.png");
     
 }
 
